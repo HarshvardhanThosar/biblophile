@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bibliophile</title>
+    <!-- Icons Styling -->
+    <script src="https://kit.fontawesome.com/0f61128121.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts Styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Native Styling -->
+    <link rel="stylesheet" href="Css/misc.css">
+    <link rel="stylesheet" href="Css/app.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <h1 class="logo"><a href="index.html">bibliophile</a></h1></a>
+    </header>
+
+    <section style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 50vh 30vh; grid-template-areas: 'login register' 'poster register'; grid-row-gap: 5vh;">
+        <form action="post" style="grid-area: login;">
+            <h1 class="title">Login</h1>
+            <input type="text" name="" id="username" placeholder="username">
+            <input type="password" name="" id="passsword" placeholder="password">
+            <button class="success button">Sign In</button>
+        </form>
+        <div class="hero__banner" style="grid-area: poster; display: inline; margin: 5vh;">
+            <h2 class="title">Welcome to bibliophile</h2>
+            <h5>Get indulged into reading</h5>
+            <h5>Start now and get 10% off for your first 5 books</h5>
+        </div>
+        <form action="post" style="grid-area: register;">
+            <h1 class="title">Register</h1>
+            <input type="text" name="" id="username" placeholder="username">
+            <input type="password" name="" id="passsword" placeholder="password">
+            <input type="email" name="" id="email" placeholder="email">
+            <h4 class="text">Interests</h4><br>
+            <label for="cooking">cooking</label>
+            <label for="cooking">crime</label>
+            <label for="cooking">fiction</label>
+            <label for="cooking">horror</label>
+            <label for="cooking">motivational</label>
+            <label for="cooking">romantic</label>
+            <label for="cooking">tech</label>
+            <label for="cooking">thriller</label>
+            <label for="cooking">travel</label>
+            <input type="checkbox" id="cooking" value="cooking">
+            <input type="checkbox" id="crime" value="crime">
+            <input type="checkbox" id="fiction" value="fiction">
+            <input type="checkbox" id="horror" value="horror">
+            <input type="checkbox" id="motivational" value="motivational">
+            <input type="checkbox" id="romantic" value="romantic">
+            <input type="checkbox" id="tech" value="tech">
+            <input type="checkbox" id="thriller" value="thriller">
+            <input type="checkbox" id="travel" value="travel">
+            <button class="success button">Sign Up</button>
+        </form>
+    </section>
+</body>
+</html>

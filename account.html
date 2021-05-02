@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bibliophile</title>
+    <!-- Icons Styling -->
+    <script src="https://kit.fontawesome.com/0f61128121.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts Styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Native Styling -->
+    <link rel="stylesheet" href="Css/misc.css">
+    <link rel="stylesheet" href="Css/app.css">
+    <link rel="stylesheet" href="Css/account.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <h1 class="logo"><a href="index.html">bibliophile</a></h1></a>
+        <div class="search__container">
+            <input type="text" id="search__field" placeholder="search...">
+            <button id="search__btn"><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="misc--link__container">
+            <li class="link"><a href="account.html">My Account</a></li>
+        </ul>
+    </header>
+
+    <section class="hero">
+        <h1 class="title">Harshvardhan Thosar</h1>
+
+        <h6 class="text">Your Orders</h6>
+
+        <div class="row">
+            <img src="Img/book4.jpg" alt="" class="cover">
+            <div class="meta">
+                <h1>The Alchemist &nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                <span style="font-size: 70%;">4.5<i class="fas fa-star"></i></span>
+                <h3 style="font-size: 80%;">Quantity : 1</h3>
+                <h6  style="font-size: 80%; float: right;">₹ 300</h6>
+            </div>
+            <div class="options">
+                <i class="fas fa-times" onclick="this.parentElement.parentElement.style.display = 'none';"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

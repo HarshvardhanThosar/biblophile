@@ -1,0 +1,15 @@
+*,*::before,*::after{
+    // design
+    padding: 0;
+    margin: 0;
+}
+
+// *::selection{
+//     // design
+//     background-color: transparent;
+// }
+
+*::-webkit-scrollbar{
+    // display
+    display: none;
+}

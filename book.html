@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bibliophile</title>
+    <!-- Icons Styling -->
+    <script src="https://kit.fontawesome.com/0f61128121.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts Styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Native Styling -->
+    <link rel="stylesheet" href="Css/misc.css">
+    <link rel="stylesheet" href="Css/app.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <h1 class="logo"><a href="index.html">bibliophile</a></h1></a>
+        <div class="search__container">
+            <input type="text" id="search__field" placeholder="search...">
+            <button id="search__btn"><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="misc--link__container">
+            <li class="link"><a href="account.html">My Account</a></li>
+        </ul>
+    </header>
+
+    <section class="book__container">
+        <div class="book" style="background-image: url(Img/book4.jpg);"></div>
+        <div class="book__info">
+            <h2 class="title">The Alchemist</h2>
+            <h4 class="text">Paulo Coelho</h4>
+            <h4 class="text">₹ 300</h4>
+            <h6 class="star"><button class="button success">Add To Cart</button>&nbsp;&nbsp;&nbsp;&nbsp;4.5<i class="fas fa-star"></i></h6>
+        </div>
+        <div class="book__gist" style="background-image: url(Img/book4banner.jpg);">
+            <h6 class="text">The Alchemist (Portuguese: O Alquimista) is a novel by Brazilian
+author Paulo Coelho that was first published in 1988.
+An allegorical novel, The Alchemist follows a young Andalusian
+shepherd in his journey to the pyramids of Egypt, after having a
+recurring dream of finding a treasure there.</h6>
+        </div>
+    </section>
+
+    <section class="suggestion">
+        <h2 class="title">Recommended</h2>
+        <div class="tile__container">
+            <div class="vertical tile">
+                <div class="book" style="background-image: url(Img/book1.png);"></div>
+                <h6 class="star">4.5<i class="fas fa-star"></i></h6>
+                <h6 class="star">₹ 280</h6>
+            </div>
+            <div class="vertical tile">
+                <div class="book" style="background-image: url(Img/book2.jpg);"></div>
+                <h6 class="star">4.5<i class="fas fa-star"></i></h6>
+                <h6 class="star">₹ 390</h6>
+            </div>
+            <div class="vertical tile">
+                <div class="book" style="background-image: url(Img/book3.jpg);"></div>
+                <h6 class="star">4.5<i class="fas fa-star"></i></h6>
+                <h6 class="star">₹ 320</h6>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
