@@ -41,7 +41,7 @@ The Author displayed must be a link that redirects users to a section of books b
 
 .html files ( index.html being the main file )
 
-.png files
+.png / .jpg files
 
 .css / .scss files ( if you want to make changes )
 #
