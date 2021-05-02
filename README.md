@@ -2,6 +2,8 @@
 
 biblophile is a free design head start project for developers willing to create an ecommerce website for books.
 
+[View the design live](https://harshvardhanthosar.github.io/biblophile/)
+
 ## Landing Page
 
 This is the landing page for project biblophile.
