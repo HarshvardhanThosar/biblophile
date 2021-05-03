@@ -43,5 +43,5 @@ The Author displayed must be a link that redirects users to a section of books b
 
 .png / .jpg files
 
-.css / .scss files ( if you want to make changes )
+.css / .scss files ( if you want to make changes to the styling )
 #
